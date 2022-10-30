@@ -27,5 +27,7 @@ ng generate m product
 ng g c product
 
 ng g c products 
+
+ng g s products/products --dry-run
 ```
 

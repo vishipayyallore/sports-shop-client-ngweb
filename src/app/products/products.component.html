@@ -1,1 +1,5 @@
-<p>products works!</p>
+<ul>
+    <li *ngFor="let product of productsService.products$ | async">
+        <app-product [product]="product"></app-product>
+    </li>
+</ul>
