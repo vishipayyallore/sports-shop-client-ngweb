@@ -17,5 +17,11 @@ node -v
 ng v
 
 ng new sports-shop-client-ngweb
+
+ng generate m products --dry-run
+ng generate m products
+
+ng generate m product --dry-run
+ng generate m product
 ```
 
