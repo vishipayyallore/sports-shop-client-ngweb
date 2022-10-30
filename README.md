@@ -31,3 +31,14 @@ ng g c products
 ng g s products/products --dry-run
 ```
 
+## Docker Build
+
+```docker
+docker build --pull --rm -f "Dockerfile" -t sports-shop-client-ngweb:latest "." 
+```
+
+## Run Docker Container for Sports Shop Microservice
+
+```bash
+docker run -p 8081:4200 -it -d sports-shop-client-ngweb:latest
+```

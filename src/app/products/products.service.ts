@@ -16,7 +16,7 @@ export class ProductsService {
   constructor(private httpClient: HttpClient) { }
 
   getProducts() {
-    this.httpClient.get<Product[]>(environment.apiHost + '/api/Products')
+    this.httpClient.get<Product[]>(environment.apiHost + '/api/products')
       .pipe(first())
       .subscribe(results => this.products.next(results))
   }
