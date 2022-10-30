@@ -15,4 +15,7 @@ A Simple Angular 14+ Client Application for Sports Store
 npm -v
 node -v
 ng v
+
+ng new sports-shop-client-ngweb
 ```
+
