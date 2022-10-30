@@ -1,0 +1,15 @@
+<div class="app">
+  <figure>
+    <figcaption>— process.env</figcaption>
+    <span class="process env">{{ processEnv | json }}</span>
+  </figure>
+
+  <figure>
+    <figcaption>— angular environment</figcaption>
+    <span class="angular env">{{ angularEnv | json }}</span>
+  </figure>
+
+  <a routerLink="/products">Products</a>
+
+  <router-outlet></router-outlet>
+</div>

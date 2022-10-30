@@ -1,0 +1,16 @@
+<div class="product-component" *ngIf="product">
+    <div class="product-component__header">
+        <h1>{{ product.name }}</h1>
+    </div>
+    <div class="product-component__body">
+        <div class="product-component__image">
+            <span class="product-image image-src">TODO {{ product.imageFile }}</span>
+        </div>
+        <div class="product-component__description">
+            <p>{{ product.description }}</p>
+        </div>
+        <div class="product-component__price">
+            <p>{{ product.price }}</p>
+        </div>
+    </div>
+</div>
