@@ -23,5 +23,7 @@ ng generate m products
 
 ng generate m product --dry-run
 ng generate m product
+
+ng g c product
 ```
 
