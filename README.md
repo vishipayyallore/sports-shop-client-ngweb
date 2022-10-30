@@ -8,3 +8,11 @@ A Simple Angular 14+ Client Application for Sports Store
 
 - Node.js
 - Angular CLI
+
+## Commands Executed
+
+```angularcli
+npm -v
+node -v
+ng v
+```
