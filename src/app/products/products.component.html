@@ -1,5 +1,6 @@
 <ul>
     <li *ngFor="let product of productsService.products$ | async">
+        <span>{{ product | json }}</span>
         <app-product [product]="product"></app-product>
     </li>
 </ul>
